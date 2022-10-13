@@ -5,3 +5,27 @@ html, body {
 canvas {
   display: block;
 }
+h1{
+  color:chocolate;
+  position:absolute;
+  top:0; 
+  left: 300px; 
+  padding:0;
+  margin:0;
+}
+a{
+  position:absolute;
+  color:red;
+  top:150px;
+  left:20px;
+}
+div{
+  position:absolute;
+  top:50px;
+}
+
+.bold{
+  font-weight:bold;
+  color:hotpink;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

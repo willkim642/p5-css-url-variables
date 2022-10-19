@@ -20,7 +20,7 @@ function draw() {
   //on button press
   button.mousePressed(function(){
     clr = input.value(); //get value from input field
-    var href = setParams('./p2', clr); //set URL navigation to include clr value
+    var href = setParams('./p2', 'color', clr); //set URL navigation to include clr value
     window.location.href = href; //navigate to URL set above
   });
 

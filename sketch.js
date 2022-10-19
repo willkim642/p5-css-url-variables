@@ -4,6 +4,7 @@ let clr_input;
 let num_input; 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  background(0);
   //add clr_input to set color
   clr_input = createInput();
   clr_input.position(0, 150);
@@ -20,9 +21,9 @@ function setup() {
 }
 
 function draw() {
-  background(0);
-  fill('blue')
-  ellipse(200, 200, 20);
+ 
+  stroke('red');
+  line(random(width), random(height), random(width), random(height));
   //on button press
   button.mousePressed(function(){
     clr = clr_input.value(); //get value from clr_input field
